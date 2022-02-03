@@ -1,0 +1,34 @@
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #4fbcff;
+}
+
+#counter {
+    color: #72fa48;
+    font-size: 140px;
+    font-family: Arial;
+    transition: all 300ms ease;
+}
+
+#increase, #decrease, #reset {
+    font-size: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid cyan 5px;
+    background-color: blue;
+
+    cursor: pointer;
+}
+
+#increase:active, #decrease:active, #reset:active {
+    transform: scale(0.9);
+}
+
+#counter:hover {
+    font-size: 170px;
+}
